@@ -6,5 +6,5 @@ data "azurerm_image" "example" {
 
 
 variable "packer_image_id" {
-  default  = "/subscriptions/3d34ebc4-17fd-4c71-a5cc-83007d91fb7d/resourceGroups/Azuredevops01/providers.Microsoft.compute/images/myPackerImage"
+  default  = "/subscriptions/enter subscription id/resourceGroups/enter resource group/providers.Microsoft.compute/images/myPackerImage"
 }
